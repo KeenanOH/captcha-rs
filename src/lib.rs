@@ -13,7 +13,6 @@ struct PyCaptcha {
     pub dark_mode: bool,
 }
 
-
 #[pyclass(name="CaptchaBuilder")]
 struct PyCaptchaBuilder {
     pub length: Option<usize>,
@@ -82,7 +81,7 @@ impl PyCaptchaBuilder {
 
 /// A Python module implemented in Rust.
 #[pymodule]
-fn captcha(_py: Python, m: &PyModule) -> PyResult<()> {
+fn captcha_rs(_py: Python, m: &PyModule) -> PyResult<()> {
     m.add_class::<PyCaptcha>()?;
     m.add_class::<PyCaptchaBuilder>()?;
     Ok(())
