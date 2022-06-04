@@ -5,10 +5,14 @@ use pyo3::prelude::*;
 
 #[pyclass(name="Captcha")]
 struct PyCaptcha {
+    #[pyo3(get)]
     pub text: String,
+    #[pyo3(get)]
     pub base_img: String,
+    #[pyo3(get)]
     pub dark_mode: bool,
 }
+
 
 #[pyclass(name="CaptchaBuilder")]
 struct PyCaptchaBuilder {
