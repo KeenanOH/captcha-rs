@@ -1,5 +1,11 @@
 # captcha-rs
 [captcha-rs](https://github.com/samirdjelal/captcha-rs) implemented in Python.
+
+## Install
+```
+pip install git+https://github.com/Shinobou/captcha-rs
+```
+
 ## Examples
 ```py
 from captcha_rs import Captcha, CaptchaBuilder
