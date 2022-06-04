@@ -1,0 +1,9 @@
+class Captcha:
+    def __init__(self, length: int, width: int, height: int, dark_mode: bool, complexity: int):
+        ...
+
+    def get_text(self) -> str:
+        ...
+
+    def get_bytes(self) -> bytes:
+        ...
