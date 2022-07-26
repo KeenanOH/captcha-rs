@@ -15,5 +15,6 @@ captcha: Captcha = CaptchaBuilder() \
     .width(130) \
     .height(50) \
     .dark_mode(False) \
-    .complexity(5)
+    .complexity(5) \
+    .build()
 ```
