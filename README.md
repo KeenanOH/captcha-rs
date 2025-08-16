@@ -3,7 +3,7 @@
 
 ## Install
 ```
-pip install git+https://github.com/Shinobou/captcha-rs
+pip install git+https://github.com/KeenanOH/captcha-rs
 ```
 
 ## Examples
